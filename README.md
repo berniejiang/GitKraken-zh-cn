@@ -1,18 +1,17 @@
-# GitKraken 正體中文 (台灣) 翻譯
+# GitKraken 简体中文翻译
 
-[GitKraken](https://www.gitkraken.com/) 正體中文 (台灣) 翻譯補丁  
-已全部翻譯完畢，歡迎 PR 修正內容或協助翻譯  
-  
+[GitKraken](https://www.gitkraken.com/) 简体中文翻译文件
+
 ![screenshot](./screenshot.png)
 
 ## 使用方法
-- 目前支援版本: 7.7.2
-- 至 [Release](https://github.com/rogeraabbccdd/GitKraken-zh-tw/releases/latest) 下載 `strings.json`
-- 取代檔案
+- 目前版本: 7.7.2
+- 至 [Release](https://github.com/berniejiang/GitKraken-zh-cn/releases/latest) 下载 `strings.json`
+- 替换文件
   - Windows: `%LOCALAPPDATA%\gitkraken\app-7.7.2\resources\app.asar.unpacked\src\strings.json`
   - Mac: `/Applications/GitKraken.app/Contents/Resources/app.asar.unpacked/src/strings.json`
   - Linux: `/usr/share/gitkraken/resources/app.asar.unpacked/src`
-- 重新開啟 GitKraken 後，至 Preference -> UI Customization -> Language 切換語言
+- 重新打开 GitKraken ，在 `Preference` -> `UI Customization` -> `Language` 中切换语言
   ![screenshot](./preferences.png)
 
 ## 更新翻譯檔格式
